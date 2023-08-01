@@ -1,0 +1,99 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="tic-tac-toe-single-player.html"><i class="lnr lnr-chevron-left"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Tic-Tac-Toe (Two Player)</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-8 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="img/portfolio/two-player.PNG" alt="" />
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function ($) {
+                        $('.portfolio-page-carousel').imagesLoaded(function () {
+                            $('.portfolio-page-carousel').owlCarousel({
+                                smartSpeed: 1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight: true
+                            });
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-4 col-md-4 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <div class="block-title">
+                        <h3>Description</h3>
+                    </div>
+                    <ul class="project-general-info">
+                        <li>
+                            <p><i class="fa fa-user"></i> Amrit Sinha (personal)</p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-globe"></i> <a href="https://tic-tac-toe-two-player.vercel.app"
+                                    target="_blank">https://tic-tac-toe-two-player.vercel.app</a></p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-calendar"></i> April, 2023</p>
+                        </li>
+                    </ul>
+
+                    <p class="text-justify">It is a fun and interactive Tic Tac Toe game that has been developed
+                        using the React framework. The game has a simple and easy-to-use interface, which allows users
+                        to quickly start playing
+                        and enjoy the game. The website also has a responsive design, which means that it can be easily
+                        accessed on different
+                        devices such as desktops, tablets, and smartphones. Overall, the website is a great way to spend
+                        some time having fun
+                        and playing an exciting game of Tic Tac Toe.</p>
+                    <!-- /Project Description -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Technology</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a>React</a></li>
+                            <li><a>HTML5</a></li>
+                            <li><a>CSS3</a></li>
+                        </ul>
+                    </div>
+                    <!-- /Technology -->
+
+                    <!-- Share Buttons -->
+                    <div class="btn-group share-buttons">
+                        <div class="block-title">
+                            <h3>Share</h3>
+                        </div>
+                        <a href="#" target="_blank" class="btn"><i class="fab fa-facebook-f"></i> </a>
+                        <a href="#" target="_blank" class="btn"><i class="fab fa-twitter"></i> </a>
+                        <a href="#" target="_blank" class="btn"><i class="fab fa-dribbble"></i> </a>
+                    </div>
+                    <!-- /Share Buttons -->
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>
